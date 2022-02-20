@@ -10,7 +10,7 @@
 }
 
 .navbar-style {
-    box-shadow: 0 5px 10px #efefef;
+    box-shadow: 0 5px 10px #494949 !important;
 }
 
 .logo {
@@ -27,9 +27,14 @@ section {
 .carousel-item {
     height: 30rem;
     min-height: 300px;
+    background: #000;
 }
 
-.carousel-item::before {
+.carousel-item img {
+    opacity: 0.5;
+}
+
+/* .carousel-item::before {
     content: "";
     display: block;
     position: absolute;
@@ -39,7 +44,23 @@ section {
     left: 0;
     background-image: linear-gradient(to top, #b7b7b700, #958f8f96);
     opacity: 0.7;
+} */
+
+/* .samplelang {
+    background-image: linear-gradient(to right, #00000063, #00000063), url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
 }
+
+.samplelang2 {
+    background-image: linear-gradient(to right, #00000063, #00000063), url("../img/banner4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+} */
 
 .carousel-caption {
     bottom: 15%;
@@ -172,13 +193,7 @@ a:hover {
     color: white;
 }
 
-.samplelang {
-    background-image: linear-gradient(to right, #00000063, #00000063), url("../img/banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 100%;
-}
+
 
 /* codes ko */
 
