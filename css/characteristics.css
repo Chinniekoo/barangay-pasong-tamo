@@ -166,6 +166,10 @@ a:hover {
     .footer > .grid > .left > .mid > a > i {
         transform: translateY(5px);
     }
+
+    .wrapper2, .wrapper3,.wrapper4, .wrapper5, .wrapper6, .wrapper7, .wrapper8 {
+        width: 100%;
+    }
 }
 
 /* tablet */
@@ -243,5 +247,9 @@ a:hover {
     .mid a {
         color: white;
         text-decoration: none;
+    }
+
+    .wrapper2, .wrapper3,.wrapper4, .wrapper5, .wrapper6, .wrapper7, .wrapper8 {
+        width: 70%;
     }
 }

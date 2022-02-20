@@ -194,6 +194,8 @@ a:hover {
     .responsive-layout > .second > .pic {
         position: static;
         top: 0; left: 0;
+        width: auto;
+        height: auto;
     }
 
     .responsive-layout > .second > .profile {
